@@ -8,10 +8,20 @@
             let newItem = document.createElement("p")
             document.getElementsByTagName("div")[0].append(newItem)
         }
+        const firstUlDisappear = function()
+        {
+            for (let i=0; i < 3; i++)
+            {
+                let x = document.getElementById("firstList").children[i] 
+                x.style.display = "none"
+            }
+
+        }
     </script>
     <title>Document</title>
 </head>
 <body>
+    <button id="switch">LetDissapear</button>
     <h1>This is the title of the page</h1>
     <h2>This is the subtitle of the page</h2>
     <hr>
