@@ -41,7 +41,12 @@ const firstUlDisappear = function()
             x.style.display = "none"
         }
     }
-
+    //ex8
+const paintItGreen = function()
+{
+    document.getElementsByTagName("ul")[0].style.backgroundColor = "green"
+    document.getElementsByTagName("ul")[1].style.backgroundColor = "green"
+}
     </script>
     <title>Document</title>
 </head>
@@ -51,12 +56,12 @@ const firstUlDisappear = function()
     <h2>This is the subtitle of the page</h2>
     <hr>
     
-    <ul id="firstList">
+    <ul style="background-color: white;" id="firstList">
         <li>1st</li>
         <li>2nd</li>
         <li>3rd</li>
     </ul>
-    <ul id="secondList">
+    <ul style="background-color:  white;" id="secondList">
         <li>1st</li>
         <li>2nd</li>
         <li>3rd</li>

@@ -36,3 +36,7 @@ const firstUlDisappear = function()
         x.style.display = "none"
     }
 }
+
+function paintItGreen() {
+    document.getElementsByTagName("ul").style.backgroundColor = "red";
+  }
