@@ -21,3 +21,8 @@ const addToTheSecond = function()
     let newItem = document.createElement("li")
     document.getElementById("secondList").append(newItem)
 }
+const addParagraph = function()
+{
+    let newItem = document.createElement("p")
+    document.getElementsByTagName("div").append(newItem)
+}

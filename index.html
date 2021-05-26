@@ -3,14 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <script>
-        const changeTitle = function(newTitle)
+        const addParagraph = function()
         {
-            document.title = newTitle;
-        }
-        const addToTheSecond = function()
-        {
-            let newItem = document.createElement("li")
-            document.getElementById("secondList").append(newItem)
+            let newItem = document.createElement("p")
+            document.getElementsByTagName("div")[0].append(newItem)
         }
     </script>
     <title>Document</title>
